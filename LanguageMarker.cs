@@ -1,1 +1,0 @@
-namespace JASS_Decryptor;
