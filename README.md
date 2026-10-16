@@ -20,7 +20,7 @@ When the option is unchecked, it attempts to delete the matching encrypted `.jas
 
 The decryptor uses an embedded key stream to reverse the XOR transformation applied to the first 20,000 bytes of each encrypted file. The rest of the file is left unchanged.
 
-To verify a recovered file, you can compare its SHA-256 hash with that of a known-good original. Matching hashes confirm that both files have identical contents.
+To verify a recovered file, you can compare its SHA-256 hash with that of a known good original copy. Matching hashes confirm that both files have identical contents.
 
 ## Features
 
