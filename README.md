@@ -16,11 +16,11 @@ When the option is unchecked, it attempts to delete the matching encrypted `.jas
 
 ![Keep Encrypted Files Disabled](https://media.githubusercontent.com/media/Xyntrax/JASS-Decryptor/main/images/K-E-F-D.gif)
 
-## How the recovery works
+## How Decryption works
 
-The port follows the supplied recovery routine: it XORs the first 20,000 bytes of each candidate file with the corresponding bytes of the embedded key stream. Bytes after that prefix are left unchanged. The transformation has no independent authentication tag or built-in content-integrity check.
+The decryptor uses an embedded key stream to reverse the XOR transformation applied to the first 20,000 bytes of each encrypted file. The rest of the file is left unchanged.
 
-For a known encrypted/original pair, compare the recovered file with the original, for example by comparing SHA-256 hashes. A match validates that sample, not every file or every ransomware infection.
+To verify a recovered file, compare its SHA-256 hash with that of a known-good original. Matching hashes confirm that both files have identical contents.
 
 ## Features
 
