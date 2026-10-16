@@ -8,13 +8,13 @@ Credits to [**Rivitna**](https://x.com/rivitna2) for providing the base Python D
 
 **Keep encrypted files (recommended)** is enabled by default, recovered files are written beside their encrypted counterparts and the `.jass` originals are retained.
 
-![Keep Encrypted Files Enabled]([images/K-E-F-E.gif](https://media.githubusercontent.com/media/Xyntrax/JASS-Decryptor/main/images/K-E-F-E.gif))
+![Keep Encrypted Files Enabled](images/K-E-F-E.gif)
 
 ### Keep encrypted files disabled
 
 When the option is unchecked, it attempts to delete the matching encrypted `.jass` source only after its recovered output has been written successfully.
 
-![Keep Encrypted Files Disabled]([images/K-E-F-D.gif](https://media.githubusercontent.com/media/Xyntrax/JASS-Decryptor/main/images/K-E-F-D.gif))
+![Keep Encrypted Files Disabled](images/K-E-F-D.gif)
 
 ## How the recovery works
 
