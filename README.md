@@ -2,6 +2,14 @@
 
 Credits to [**Rivitna**](https://x.com/rivitna2) for providing the base Python Decryptor Script. This is a port to C# which adds a graphical interface, automated decryption eliminating manual single file decryption, report summary and log generation.
 
+### Reference Case
+
+This decryptor was developed for a specific ransomware case discussed on the Kaldata forums.
+
+- https://www.kaldata.com/forums/topic/346429-системата-е-инфектирана-с-някакъв-ransomware/
+
+*Note: `JASS` refers to the encrypted file extension appended by the ransomware sample. Its family has not been conclusively identified as the sample appears to have self-deleted, but it was a homemade ransomware.*
+
 ## Recovery Behavior
 
 ### Keep Encrypted Files Enabled
