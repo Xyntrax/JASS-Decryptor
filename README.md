@@ -7,6 +7,7 @@ Credits to [**Rivitna**](https://x.com/rivitna2) for providing the base Python D
 This decryptor was developed for a specific ransomware case discussed on the Kaldata forums.
 
 - https://www.kaldata.com/forums/topic/346429-системата-е-инфектирана-с-някакъв-ransomware/
+- https://www.bleepingcomputer.com/forums/t/819569/unknown-ransomware-with-jass-extension-jass-decryptor-available/
 
 *Note: `JASS` refers to the encrypted file extension appended by the ransomware sample. Its family has not been conclusively identified as the sample appears to have self-deleted, but it was a homemade ransomware.*
 
